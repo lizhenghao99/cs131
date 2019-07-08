@@ -1,17 +1,17 @@
 Running on Welsh
 
-RECEIVED: INTERNAL kiwi.cs.ucla.edu +30.068930-110.445127 1561077380.678869963 +0.000247002 Goloman
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +30.068930-110.445127 1559716284.689404964 +0.000231028 Goloman
 Holiday: propagate info for client kiwi.cs.ucla.edu
-RECEIVED: INTERNAL kiwi.cs.ucla.edu +34.068930-118.445127 1561077380.681055069 +0.000234842 Hands
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +34.068930-118.445127 1559716284.691555023 +0.000231981 Hands
 Holiday: propagate info for client kiwi.cs.ucla.edu
-RECEIVED: INTERNAL eric.cs.ucla.edu +40.758895-73.985131 1561077380.683017015 +0.000527143 Holiday
+RECEIVED: INTERNAL eric.cs.ucla.edu +40.758895-73.985131 1559716284.693670988 +0.000818014 Holiday
 Holiday: propagate info for client eric.cs.ucla.edu
 RECEIVED: WHATSAT kiwi.cs.ucla.edu 10 5
 Contacting Google Places for client kiwi.cs.ucla.edu
-RESPONDED: AT Hands +0.000234842 kiwi.cs.ucla.edu +34.068930-118.445127 1561077380.681055069
+RESPONDED: AT Hands +0.000231981 kiwi.cs.ucla.edu +34.068930-118.445127 1559716284.691555023
 {
    "html_attributions": [],
-   "next_page_token": "CqQCFQEAAClHvNS3b3oGY-zV_SGl--C57TqF6RTGZWFaxZbklg9Xv7U6fVeDfpX5AutesHF5DE3fnQ1BXVbcEDNZ_jo965k7lU0DneMZDoR3wLrlbMGBFbqHLzNXDUoL62C10mFDLoUnE8dBaBCQvAR7LPi4XQz6kOH98tVZAVbqOMmTRgmQhYWlQaEyALEE1QIHUP4YV9QKi9pupfLVRjmxfbYu7efqSac-TGzm2ThgSKfM4HHG4uk2K3kalAi7pdGZOS_ptjTm2rt73YTs0kx2EMm7ph3WFw0beAmVO75dJdvC4PXgBF4F1cE58l3p_IJr56ziHDWUu51tfMsVp8rWG2QjPkOQmQ0G9VNbOKyCeL6QLy0_wca3VUJIoKyHhA3k6hp9BRIQr7gt3LZvfPTzAv_GIcCpGRoUPj8R4Tn60RwpLRCbV2HLCa_Qd14",
+   "next_page_token": "CqQCFQEAANj7FwkJ8DO8xSkLRcXg1vunT-3nFKwAp8qPFCMUWLwLgr8N9oerTec_uoNtQAnx_tawfe1dZ3HUKZgQVn9nKRwHDwDOnKCpy8C6ijx5l-cFtHiT_AzGqelAMycCJqSvTXE4MMr61-4xiALl73dEwbDf1cpuyzrN75EzMyP9AoTYSL38wRQPMfbfSqih9VUuy7cL8L_okwgC5rnETt7clRB--22EudeJYBDz7ereVSqNpgVwMXa83WTrSUHGbeIbBWqlwdLuwmmtcgJYrPSJp0PAHltMiNf_AS_fSOMCgmfEiqtItCeojqHb3KiYuvbr5LxwNO8EBjU68VjqrLt7r33w_YdQmPZDG-UXXrN1ekgxyc1y8BkKsnVw-lJMf1kUWBIQuKWgzUHpqdWPhgroqrV5dxoUIl4Jifi1MgdOm5dA-8TTqPzNgi0",
    "results": [
       {
          "geometry": {
@@ -35,12 +35,12 @@ RESPONDED: AT Hands +0.000234842 kiwi.cs.ucla.edu +34.068930-118.445127 15610773
          "name": "Los Angeles",
          "photos": [
             {
-               "height": 3456,
+               "height": 1664,
                "html_attributions": [
-                  "<a href=\"https://maps.google.com/maps/contrib/114567877280364065147/photos\">Bernt</a>"
+                  "<a href=\"https://maps.google.com/maps/contrib/107608360183271036803/photos\">aditya mani vatsa</a>"
                ],
-               "photo_reference": "CmRaAAAA-jGVWNcPcu_fbE8cfA5onE3pj4xydE6hYMtAe7glfR-W9GoCeQNXzng9YxLXjV6t2dVCKoUeMlu8ExTLjlIbVhRyIb8VPfFcSM2VPG_dwwQPeBtfQ5QpYOSODmMhJBmDEhAOYlCYb_9cwQqklZTw7z7FGhTXYsnfpQQHTaKq0ns_fXqM0B9aaw",
-               "width": 5184
+               "photo_reference": "CmRaAAAAIAFP0T1PNB_6YrzVaPQk_JhdLbAhcxQyUW6lVen1VhBkOfosBLAAxpa-pIsxlQqSdfHkwtkhJmc4PExTeUa82O7eDd4oBbYmBkPQggjUR3irv8PgfrTAPKzBRtZqynLPEhC8KZgp70wqhmvJRCDVJ-24GhQse6IkQ5XYb2jhHp8YXuiuTf4LRg",
+               "width": 2496
             }
          ],
          "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
@@ -81,7 +81,7 @@ RESPONDED: AT Hands +0.000234842 kiwi.cs.ucla.edu +34.068930-118.445127 15610773
                "html_attributions": [
                   "<a href=\"https://maps.google.com/maps/contrib/114543748345978093084/photos\">Hilgard House Hotel &amp; Suites</a>"
                ],
-               "photo_reference": "CmRaAAAAFbQTUnXMzOWTKlbwB0cPg2pbNxJQYE4kiMzW-fu6TgvQem-G__F5mZdd3NoPeJ3SsFWLRq6V-3Lgc_pY9B9wAaBzDx94uTAG9bSYgW148oViQMwcMLGuhW7FLorJxp4LEhAEr0bwGeQVWv71OA_FWj-dGhTF9rUE-mIwjgqIw9-qz27Kq0RbqQ",
+               "photo_reference": "CmRaAAAA3HUkuuqZoVoHH5XZUhzxa75-UUSIpvG4zs33e4APQHL75P2588zP4HQqq4wDXBvnDMfGxroIIVIWs12edUAN2i8Ir4D0rUoTfDsosaPPgh0v4CIYFCpoPUHoIRHiwTqEEhATy0o68P2zyX2IsXZLHIS_GhS6A_quZ0uWCvT5ah7jGViKnoY8kg",
                "width": 300
             }
          ],
@@ -92,13 +92,12 @@ RESPONDED: AT Hands +0.000234842 kiwi.cs.ucla.edu +34.068930-118.445127 15610773
          },
          "rating": 3.9,
          "reference": "ChIJ06ecwoC8woARVyPlQNVzetI",
-         "scope": "GOOGLE",
          "types": [
             "lodging",
             "point_of_interest",
             "establishment"
          ],
-         "user_ratings_total": 141,
+         "user_ratings_total": 138,
          "vicinity": "927 Hilgard Avenue, Los Angeles"
       },
       {
@@ -130,7 +129,7 @@ RESPONDED: AT Hands +0.000234842 kiwi.cs.ucla.edu +34.068930-118.445127 15610773
                "html_attributions": [
                   "<a href=\"https://maps.google.com/maps/contrib/106717016222686749028/photos\">W Los Angeles - West Beverly Hills</a>"
                ],
-               "photo_reference": "CmRaAAAA8bL-Dw2fMxXRBWOekxTVgp5VTPdaTjCuQ03iUPOmEKs05OAx1AJRMf5-eWpl5VmpkR0Lzn4EF_xThTtvTFcQg6dCUakZwXu3OT5lZsD1OLZl0B_Ev10vE6e_0qqMe_YdEhDjXMWxIj_uwjIofoy9qPDXGhT8uWVbWEtxaXYlQCCS_wdG0mcQMA",
+               "photo_reference": "CmRaAAAAPOAizdQz5C_EqwPdI0lWxRQAATD9qCEF4WyDLL0GEEJeEwuXjah2GKH9pHn_uxZtuxOowZoAGf9rr8vSYxb8uj0inVev1dj__FhWzK6s-NVxYvzAzKW11guiIQe3ewWoEhDk81s11lipubw4QJumcsgfGhSdeJYBOeDM7_xOV03XNTKRGi_2Xg",
                "width": 1500
             }
          ],
@@ -147,7 +146,7 @@ RESPONDED: AT Hands +0.000234842 kiwi.cs.ucla.edu +34.068930-118.445127 15610773
             "point_of_interest",
             "establishment"
          ],
-         "user_ratings_total": 837,
+         "user_ratings_total": 829,
          "vicinity": "930 Hilgard Avenue, Los Angeles"
       },
       {
@@ -176,7 +175,7 @@ RESPONDED: AT Hands +0.000234842 kiwi.cs.ucla.edu +34.068930-118.445127 15610773
                "html_attributions": [
                   "<a href=\"https://maps.google.com/maps/contrib/113208686299204696401/photos\">Javier de la Rosa</a>"
                ],
-               "photo_reference": "CmRaAAAAQbrMaIEib3gxkIGIhT8PfVl_O7wKcqA-gfLMq8eRs2J1dk9BrfKTpS3EBkhx1MyL3GwLOCXqpJpIEY5dm9iSfsg67W_UR1-Q26Ut5q_DucTX30yx7nEFOI_xxGWAePwYEhCTx0-Ul4lPIAww7qGBmbKXGhSEp35CvClFujYy_jZrzOVVsmuuqA",
+               "photo_reference": "CmRaAAAAannVeoALfROCZDN_trcghldZGN6TNQEPRr2FmnJfgnmPqXxmJZ6riMfvhqrrskldhKpewO5fFv_5AOccfEhPDCxYuHLI5-5x10Oty2oZc3LAYY9H0C8QmbLOl-1YJkCnEhAvIh74IBXr8ihrFekzPIKkGhQbDH6lxr1o_9y-WMhD-wcYn8I6eA",
                "width": 5312
             }
          ],
@@ -193,7 +192,7 @@ RESPONDED: AT Hands +0.000234842 kiwi.cs.ucla.edu +34.068930-118.445127 15610773
             "point_of_interest",
             "establishment"
          ],
-         "user_ratings_total": 154,
+         "user_ratings_total": 153,
          "vicinity": "1052 Tiverton Avenue, Los Angeles"
       },
       {
@@ -204,12 +203,12 @@ RESPONDED: AT Hands +0.000234842 kiwi.cs.ucla.edu +34.068930-118.445127 15610773
             },
             "viewport": {
                "northeast": {
-                  "lat": 34.06895858029149,
-                  "lng": -118.4244877697085
+                  "lat": 34.0689543802915,
+                  "lng": -118.4244558197085
                },
                "southwest": {
-                  "lat": 34.0662606197085,
-                  "lng": -118.4271857302915
+                  "lat": 34.0662564197085,
+                  "lng": -118.4271537802915
                }
             }
          },
@@ -225,7 +224,7 @@ RESPONDED: AT Hands +0.000234842 kiwi.cs.ucla.edu +34.068930-118.445127 15610773
                "html_attributions": [
                   "<a href=\"https://maps.google.com/maps/contrib/116019741408911300544/photos\">The Wanderer</a>"
                ],
-               "photo_reference": "CmRaAAAAxLbdBzgTIw9DD_jpks1hA3m6lSsr02SHCiobT-Je6pSvTGO_vNXPleaczquTNLa0buFA2phITlQtXKBbujQ3CYvrn_tW8tabnYQfXZSlsBIoD1-9hlfdQ2FFQXUQOUScEhB_s---MWSM-U6zopstbnIJGhQRwC2t9rphBJz1anh57JUsVzpSdw",
+               "photo_reference": "CmRaAAAAt5hTA19reGQzVnV0XHOpJOZ1Hod6fdaOx6A52vWriv6S1yV3op6a_eJqPSMe88bz-UfS7Yr-UBM76tx_nbq3fDzJLIT2ND1O-1H4xI1Z1gC-q-zvQ8s5z0f7EIeyyrsLEhDZG_1mPd_nxRDnfXCET5QNGhTXvr02O2BkoskzM6hqEwtL4OzlNg",
                "width": 3648
             }
          ],
@@ -242,7 +241,7 @@ RESPONDED: AT Hands +0.000234842 kiwi.cs.ucla.edu +34.068930-118.445127 15610773
             "point_of_interest",
             "establishment"
          ],
-         "user_ratings_total": 274,
+         "user_ratings_total": 268,
          "vicinity": "10300 Wilshire Boulevard, Los Angeles"
       }
    ],

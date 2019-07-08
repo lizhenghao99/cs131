@@ -1,0 +1,22 @@
+Running on Goloman
+
+RECEIVED: IAMAT kiwi.cs.ucla.edu +30.068930-110.445127 1559716284.689404964
+Hands: propagate info for client kiwi.cs.ucla.edu
+Holiday: propagate info for client kiwi.cs.ucla.edu
+Wilkes: propagate info for client kiwi.cs.ucla.edu
+RESPONDED: AT Goloman +0.000231028 kiwi.cs.ucla.edu +30.068930-110.445127 1559716284.689404964
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +30.068930-110.445127 1559716284.689404964 +0.000231028 Goloman
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +30.068930-110.445127 1559716284.689404964 +0.000231028 Goloman
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +30.068930-110.445127 1559716284.689404964 +0.000231028 Goloman
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +34.068930-118.445127 1559716284.691555023 +0.000231981 Hands
+Hands: propagate info for client kiwi.cs.ucla.edu
+Holiday: propagate info for client kiwi.cs.ucla.edu
+Wilkes: propagate info for client kiwi.cs.ucla.edu
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +34.068930-118.445127 1559716284.691555023 +0.000231981 Hands
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +34.068930-118.445127 1559716284.691555023 +0.000231981 Hands
+RECEIVED: INTERNAL eric.cs.ucla.edu +40.758895-73.985131 1559716284.693670988 +0.000818014 Holiday
+Hands: propagate info for client eric.cs.ucla.edu
+Holiday: propagate info for client eric.cs.ucla.edu
+RECEIVED: INTERNAL eric.cs.ucla.edu +40.758895-73.985131 1559716284.693670988 +0.000818014 Holiday
+Wilkes: propagate info for client eric.cs.ucla.edu
+RECEIVED: INTERNAL eric.cs.ucla.edu +40.758895-73.985131 1559716284.693670988 +0.000818014 Holiday

@@ -1,0 +1,119 @@
+Running on Wilkes
+
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +30.068930-110.445127 1559716284.689404964 +0.000231028 Goloman
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +30.068930-110.445127 1559716284.689404964 +0.000231028 Goloman
+Goloman: propagate info for client kiwi.cs.ucla.edu
+Hands: propagate info for client kiwi.cs.ucla.edu
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +30.068930-110.445127 1559716284.689404964 +0.000231028 Goloman
+Holiday: propagate info for client kiwi.cs.ucla.edu
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +34.068930-118.445127 1559716284.691555023 +0.000231981 Hands
+Goloman: propagate info for client kiwi.cs.ucla.edu
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +34.068930-118.445127 1559716284.691555023 +0.000231981 Hands
+Hands: propagate info for client kiwi.cs.ucla.edu
+Holiday: propagate info for client kiwi.cs.ucla.edu
+RECEIVED: INTERNAL kiwi.cs.ucla.edu +34.068930-118.445127 1559716284.691555023 +0.000231981 Hands
+RECEIVED: INTERNAL eric.cs.ucla.edu +40.758895-73.985131 1559716284.693670988 +0.000818014 Holiday
+RECEIVED: INTERNAL eric.cs.ucla.edu +40.758895-73.985131 1559716284.693670988 +0.000818014 Holiday
+RECEIVED: INTERNAL eric.cs.ucla.edu +40.758895-73.985131 1559716284.693670988 +0.000818014 Holiday
+Goloman: propagate info for client eric.cs.ucla.edu
+Hands: propagate info for client eric.cs.ucla.edu
+Holiday: propagate info for client eric.cs.ucla.edu
+RECEIVED: WHATSAT eric.cs.ucla.edu 1 2
+Contacting Google Places for client eric.cs.ucla.edu
+RESPONDED: AT Holiday +0.000818014 eric.cs.ucla.edu +40.758895-73.985131 1559716284.693670988
+{
+   "html_attributions": [],
+   "next_page_token": "CqQCFQEAAGcJb29IarLfjPt8vlMRm2Cz4EylfO2c6gg8iG7rnTIl2KUjfATkHWccypClbPU8XdJ8UlJ4moeLsC9L8W1TnIo_6tC8DR14yjo1IL8aA0_5zqn_J5MBtQQ96Y48xrvo38BDb4-0FiJCKhDUm8UmuF1o7wmPm4dMAKyMZkwgzMGoWMqSrlxSxwmBeHqfkJldkDzPLRWjMFy5HSxLxb-BJsz2tRDyo35rUyekuUrl6r5Zz4SDAu1XpgvQb7NxJMfTHducG9htxIQrh45AmzaQmd2ZyNbVfbJDRhSM1Vwa0XWv07rVaIxcTdUQ8Qf62Vf-o_1izoZuWMdqQbA1TxMsscVg6A-yn_q1TlugWBoD4_vfcUfOQQvIYimTIRxYPeIReRIQtRbqHqxMMR8o4WAzJ6zBIBoUqyH6PC893M2kUkAATwqTHZGhKXE",
+   "results": [
+      {
+         "geometry": {
+            "location": {
+               "lat": 40.7127753,
+               "lng": -74.0059728
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 40.9175771,
+                  "lng": -73.70027209999999
+               },
+               "southwest": {
+                  "lat": 40.4773991,
+                  "lng": -74.25908989999999
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "name": "New York",
+         "photos": [
+            {
+               "height": 1200,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/112712688507360495804/photos\">Eva Rochovanska</a>"
+               ],
+               "photo_reference": "CmRaAAAAoh08EjX44IU9jblJIYYY2Ial3n13ZXZ5tbcjT3xEvVYf--X_T7dyTAJePe5_FxMMyTtVCJJhw7gnGCbb4rCR6sEcYhbf6JykkVcLCShdtR65lPipz4nI2wUd2QVpLoxBEhACB5mwR6ZkwKF-Cle8Q72AGhQ_cdaEqo8mhmCEz3gndQIUlirtfQ",
+               "width": 1600
+            }
+         ],
+         "place_id": "ChIJOwg_06VPwokRYv534QaPC8g",
+         "reference": "ChIJOwg_06VPwokRYv534QaPC8g",
+         "scope": "GOOGLE",
+         "types": [
+            "locality",
+            "political"
+         ],
+         "vicinity": "New York"
+      },
+      {
+         "geometry": {
+            "location": {
+               "lat": 40.75546780000001,
+               "lng": -73.982387
+            },
+            "viewport": {
+               "northeast": {
+                  "lat": 40.7569516302915,
+                  "lng": -73.9809533697085
+               },
+               "southwest": {
+                  "lat": 40.7542536697085,
+                  "lng": -73.98365133029151
+               }
+            }
+         },
+         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id": "a369de9949dd6cfba5785481cdf6928b3c7d2e46",
+         "name": "Royalton New York",
+         "opening_hours": {
+            "open_now": true
+         },
+         "photos": [
+            {
+               "height": 5184,
+               "html_attributions": [
+                  "<a href=\"https://maps.google.com/maps/contrib/113220422812727181278/photos\">Royalton New York</a>"
+               ],
+               "photo_reference": "CmRaAAAAkY4kD4C3ojUIdpPnOzhwxddES4sRCjJD2Y2v513ODwefKMuD38W43JCfjSG1SZL3D04S_xg4Up-RoWyuWvyQFFfuv1XhsG5JPbDO0Amh6NuJMA8FwyZp-H7_dSx5BywKEhBCtIAy4sQg5LPB0nXvxrV5GhTiRgqTs71WL9Tpv3b9tHxyQ4wMYQ",
+               "width": 3456
+            }
+         ],
+         "place_id": "ChIJpSMN7_9YwokRkCnu6yqV-Rk",
+         "plus_code": {
+            "compound_code": "Q249+52 New York, United States",
+            "global_code": "87G8Q249+52"
+         },
+         "price_level": 3,
+         "rating": 4.1,
+         "reference": "ChIJpSMN7_9YwokRkCnu6yqV-Rk",
+         "scope": "GOOGLE",
+         "types": [
+            "lodging",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total": 661,
+         "vicinity": "44 West 44th Street, New York"
+      }
+   ],
+   "status": "OK"
+}
+
