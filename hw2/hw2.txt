@@ -1,0 +1,82 @@
+convert_grammar:
+	This warmup function is implemented by creating a function that 
+	recursively searches the target nonterminal and append all of its 
+	valid rules to an alternative list. The above function is wrapped 
+	with convert_grammar to achieve the intended call convention
+
+parse_tree_leavse:
+	This function simply appends all leaves in the tree in order
+
+make_matcher:
+	This function is implemented with a main function tryrule that
+	recursively tries all rules in a given alternative list to match the 
+	given fragment to one of the rules. The function returns whatever the 
+	given accpetor returns when a match is found, and it returns None 
+	otherwise.
+
+	When the matcher encounters a terminal symbol, it imediately checks if it
+	matches the current head of fragment list. If so, continue matching the 
+	rest of the fragment with the rest of the rule. If not, it retries the 
+	entire orignial fragment list with the next rule in the alternative list.
+
+	When the matcher encounters a nonterminal symbol, it recursively tries to
+	match the entire remaining fragment list following the target nonterminal
+	path to confirm the nonterminal rule selection is correct. If the current
+	nonterminal rule selection is unable to complete the match, it tries the 
+	next rule of the nonterminal. This process is handled by providing another
+	matcher that matches to the remaining symbols in the currently level as 
+	the acceptor to the next level recursive match. This method effectively
+	passes the higher level rule into lower level recursions to confirm a 
+	full match in the higher level rule instead of imediately returning on the 
+	first match in the lower level recursions.
+
+	The internal matcher-to-acceptor conversion is handled by a helper 
+	function that reoderes the currying order of the orignial tryrule function.
+	The tryrule function is wrapped by make_matcher to achieve the call
+	convention and additionally handle the start symbol to initiate the match.
+
+	Note that this function works independently to the acceptor function, i.e.,
+	the internal recursive steps do not depend on the value returned by the
+	provided accpetor.
+	Thus,any accpetor function returning arbitary values (as in the testcase) 
+	will enable make_matcher to return the desired result. 
+
+	This function has a limitation. If the given grammar is not tail recursive,
+	e.g., if the first nonterminal in a rule refers to the target nonterminal,
+	the matcher will be stuck in an infinite loop. This issue has not been
+	resolved at the time of submission. An example of such failure is a rule
+	like | Expr -> [[N Expr; N Binop; N Expr]]
+
+make_parser:
+	This function is implemented with the help of the previous make_matcher.
+	
+	After many failed attempts to convert make_matcher into make_parser, 
+	I gave up on that path due to the complication of matcher-to-acceptor 
+	recursive calls.
+
+	Instead, I redesigned the logic and implemented a new pair of functions 
+	that together builds the parse tree in an easier-to-understand fashion. 
+	
+	The parserule function simply tries to parse the fragment according to 
+	each rule in the alternative list and append the subtree of each symbol
+	into an accumulator tree list. The actuall parsing responsiblity for each 
+	symbol is given to the second function parsehead.
+
+	The function parsehead tries to parse the given symbol into a Leaf element
+	or a Node subtree depending on the symbol type. Same as make_matcher, 
+	the function needs to confirm a nonterminal rule selection is correct by 
+	matching the entire remaining fragment into the current selected rule. 
+	This process is hard to achieve by the parser alone, so instead of 
+	implementing clever logic to fullfill the requirement, I simply invoke
+	the previous make_matcher on each nonterminal parse to ensure the current
+	path is correct. 
+
+	This method in effect introduces a serious increase in runtime
+	but provides a simple solution to opt-out the complication of 
+	matcher-to-acceptor calls. I understand this band aid fix is not desirable
+	at all, but my inexperience with functional languages limits my logic 
+	design to this crude implementation in order to meet the deadline. 
+
+	Thus, because the parser depends on the behavior of the matcher, it has the
+	same limitation where a rule like | Expr -> [[N Expr; N Binop; N Expr]]
+	will make the function to loop infinitely.  
