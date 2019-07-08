@@ -1,1 +1,1 @@
-# CS131: Programing Languages
+# CS131: Programming Languages
